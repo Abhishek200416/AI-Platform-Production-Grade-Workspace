@@ -1,0 +1,9 @@
+DATABASE_URL="file:./dev.db"
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+GEMINI_API_KEY=
+SEARX_URL=https://searx.space
+NEWSAPI_KEY=
+
+
+
+To run you need Still 2 API keys 

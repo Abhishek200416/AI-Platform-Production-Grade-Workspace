@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\api",
+    "\\app\\api\\[[...path]]",
+    "\\components",
+    "\\components\\modules",
+    "\\components\\ui"
+  ],
+  "SelectedNode": "\\components\\settings-panel.jsx",
+  "PreviewInSolutionExplorer": false
+}

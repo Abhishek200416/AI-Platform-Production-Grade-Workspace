@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model ChatSession {
+  id        String   @id @default(uuid())
+  title     String?
+  messages  String
+  model     String?
+  timestamp DateTime @default(now())
+  usage     String?
+}
+
+model FileAnalysis {
+  id         String   @id @default(uuid())
+  filename   String
+  size       Int
+  type       String
+  summary    String
+  uploadedAt DateTime @default(now())
+}
+
+model Settings {
+  id        String   @id @default(uuid())
+  type      String   @unique
+  content   String
+  updatedAt DateTime @updatedAt
+}
